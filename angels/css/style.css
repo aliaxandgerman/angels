@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: "Myriad Pro";
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container {
+    width: 970px;
+    margin:  auto;
+    padding: 0 15px;
+}
+input, button, textarea, a  {
+    font-family: "PT Sans";
+}
+.advantages .r {
+    float: left;
+    width: calc(100% - 970px);
+    height: 300px;
+}
+.advantages .r img {
+    width: 25%;
+    height: 300px;
+    float: left;
+
+
+}
