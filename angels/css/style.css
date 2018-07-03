@@ -28,6 +28,7 @@ input, button, textarea, a  {
     font-family: "PT Sans";
 }
 .advantages .r {
+    display: inline-block;
     float: left;
     width: calc(100% - 970px);
     height: 300px;
@@ -36,6 +37,13 @@ input, button, textarea, a  {
     width: 25%;
     height: 300px;
     float: left;
-
-
+}
+.table {
+    display: table;
+}
+.tRow {
+    display: table-row;
+}
+.tCell {
+    display: table-cell;
 }
