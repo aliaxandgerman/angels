@@ -24,6 +24,8 @@ ul {
     margin:  auto;
     padding: 0 15px;
 }
+.container .Gradient {
+}
 input, button, textarea, a  {
     font-family: "PT Sans";
 }
